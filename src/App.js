@@ -18,6 +18,7 @@ class App extends Component {
         <Router>
           <div className="App">
             <Navbar />
+            <h1>halo guyss</h1>
             <Switch>
               <Route path='/' exact component={Todo} />
               <Route path='/hero/:name' exact component={Hero} />
